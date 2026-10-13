@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0b1120">
+  <meta name="description" content="sosen8369의 개발 포트폴리오 및 기술 문서 포털">
+  <title>Sosen | Developer Portal</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">sosen8369<span>.</span></a>
+    <nav aria-label="메인 메뉴">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#docs">Docs</a>
+      <a href="https://github.com/sosen8369"
+         target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <p class="eyebrow">PERSONAL DEVELOPER PORTAL</p>
+      <h1>Building things,<br><span>documenting ideas.</span></h1>
+      <p class="hero-description">
+        프로젝트와 기술 문서, 개발 과정에서 얻은 지식을 기록하는 공간입니다.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#projects">프로젝트 보기</a>
+        <a class="button secondary"
+           href="https://github.com/sosen8369"
+           target="_blank" rel="noopener noreferrer">
+          GitHub 방문하기 ↗
+        </a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>About me</h2>
+      </div>
+      <div class="panel">
+        <p>
+          안녕하세요. 이곳은 저의 프로젝트와 기술적 탐구를
+          정리하는 개인 포털입니다.
+        </p>
+        <p class="muted">
+          관심 분야, 기술 스택, 경력 및 상세한 자기소개를
+          이 영역에 추가할 수 있습니다.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">02 / PROJECTS</p>
+        <h2>Selected projects</h2>
+      </div>
+
+      <div class="card-grid">
+        <article class="card">
+          <p class="card-number">PROJECT 01</p>
+          <h3>Project Alpha</h3>
+          <p>프로젝트의 목적과 주요 기능을 간략하게 소개합니다.</p>
+          <a href="https://github.com/sosen8369/project-alpha">
+            Repository ↗
+          </a>
+        </article>
+
+        <article class="card">
+          <p class="card-number">PROJECT 02</p>
+          <h3>Project Beta</h3>
+          <p>해결한 문제, 사용 기술 및 주요 성과를 소개합니다.</p>
+          <a href="https://github.com/sosen8369/project-beta">
+            Repository ↗
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section id="docs" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">03 / KNOWLEDGE</p>
+        <h2>Documentation</h2>
+      </div>
+
+      <div class="doc-list">
+        <a class="doc-item"
+           href="https://sosen8369.github.io/portfolio-docs/">
+          <div>
+            <h3>Portfolio Documentation</h3>
+            <p>포트폴리오 설계, 개발 과정 및 프로젝트 상세 문서</p>
+          </div>
+          <span aria-hidden="true">↗</span>
+        </a>
+
+        <a class="doc-item"
+           href="https://sosen8369.github.io/project-alpha/">
+          <div>
+            <h3>Project Alpha Docs</h3>
+            <p>프로젝트 아키텍처, 기술 명세 및 사용 가이드</p>
+          </div>
+          <span aria-hidden="true">↗</span>
+        </a>
+
+        <a class="doc-item"
+           href="https://sosen8369.github.io/tech-notes/">
+          <div>
+            <h3>Tech Notes</h3>
+            <p>기술 학습 기록과 문제 해결 과정</p>
+          </div>
+          <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> sosen8369. All rights reserved.</p>
+    <a href="https://github.com/sosen8369"
+       target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+  </footer>
+</body>
+</html>
